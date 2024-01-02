@@ -8,7 +8,7 @@ import type { Variant as TextEffectVariant } from "./textEffects";
 // Create a bot using the Telegram token
 const bot = new Bot(process.env.TELEGRAM_TOKEN || "");
 
-// Handle the /yo command to greet the user
+// Handle the /yo command to greet the user --test--
 bot.command("yo", (ctx) => ctx.reply(`Yo ${ctx.from?.username}`));
 
 // Handle the /effect command to apply text effects using an inline keyboard
