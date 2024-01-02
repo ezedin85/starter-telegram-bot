@@ -166,7 +166,7 @@ bot.api.setMyCommands([
   },
 ]);
 
-// Handle all other messages and the /start command
+// Handle all other messages and the /start command --testing--
 const introductionMessage = `Hello! I'm a Telegram bot.
 I'm powered by Cyclic, the next-generation serverless computing platform.
 
